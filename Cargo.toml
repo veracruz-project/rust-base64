@@ -17,8 +17,8 @@ name = "benchmarks"
 harness = false
 
 [features]
-default = ["std", "mesalock_sgx"]
-std = ["mesalock_sgx"]
+default = ["std"]
+std = []
 mesalock_sgx = ["sgx_tstd", "std"]
 alloc = []
 
